@@ -12,15 +12,22 @@
 ```bash
 git clone https://github.com/josezuma/logo-to-slide.git
 cd logo-to-slide
-python3 scripts/generate.py
+Generates CSS/PptxGenJS code to place a logo on all slides.
+```
+
+## Demo
+
+```bash
+Generates CSS/PptxGenJS code to place a logo on all slides.
+python3 scripts/place.py logo.png --style yc-classic
+Outputs: position coordinates, sizing rules, placement code for all 12 slides.
 ```
 
 ## Related
 
 - [yc-pitch-deck-max](https://github.com/josezuma/yc-pitch-deck-max)
-- [slide-styles](https://github.com/josezuma/slide-styles)
-- [color-theme-generator](https://github.com/josezuma/color-theme-generator)
 - [yc-content-framework](https://github.com/josezuma/yc-content-framework)
+- [+17 more pitch deck tools](https://github.com/josezuma?tab=repositories)
 
 ## License
 
